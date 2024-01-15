@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="mainBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentinfosys.studentinformationmanagementsystem.CoursesTabController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="44.0" prefWidth="874.0">
+         <children>
+            <Label fx:id="LabelTitle" alignment="CENTER" prefHeight="35.0" prefWidth="874.0" text="GRADE 1" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <TableView fx:id="MainTable" prefHeight="465.0" prefWidth="874.0">
+        <columns>
+          <TableColumn fx:id="IDColumn" prefWidth="419.99997556209564" text="ID NUMBER" />
+          <TableColumn fx:id="NameColumn" prefWidth="454.39996337890625" text="NAME" />
+        </columns>
+      </TableView>
+      <HBox alignment="CENTER" prefHeight="66.0" prefWidth="696.0" spacing="50.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#Grade1ButtonClicked" prefHeight="66.0" prefWidth="144.0" text="GRADE 1">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Grade2ButtonClicked" prefHeight="66.0" prefWidth="144.0" text="GRADE 2">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Grade3ButtonClicked" prefHeight="66.0" prefWidth="144.0" text="GRADE 3">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Grade4ButtonClicked" prefHeight="66.0" prefWidth="144.0" text="GRADE 4">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Grade5ButtonClicked" prefHeight="66.0" prefWidth="144.0" text="GRADE 5">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Grade6ButtonClicked" prefHeight="66.0" prefWidth="144.0" text="GRADE 6">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="53.0" prefWidth="874.0" spacing="50.0">
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>
