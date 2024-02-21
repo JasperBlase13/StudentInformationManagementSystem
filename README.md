@@ -12,7 +12,7 @@
 
 # StudentInformationManagementSystem  | How to use?
 
--Requirements | Things to know
+- Requirements | Things to know
 
   -Must have MySql installed 
   
